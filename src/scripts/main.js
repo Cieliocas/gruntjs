@@ -11,3 +11,5 @@ document.addEventListener('DOMContentLoaded', function() {
         document.querySelector('.resultado').style.display = 'block';
     })
 });
+
+alert('O script foi carregado com sucesso!');
