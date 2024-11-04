@@ -11,3 +11,5 @@ document.addEventListener('DOMContentLoaded', function() {
         document.querySelector('.resultado').style.display = 'block';
     })
 });
+
+alert('otest')
