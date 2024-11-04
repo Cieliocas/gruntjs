@@ -40,6 +40,7 @@ input {
   padding: 16px;
   margin-top: 128px;
   border: 8px dotted #fff;
+  display: none;
 }
 .resultado span {
   font-weight: bold;
