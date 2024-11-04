@@ -16,10 +16,17 @@ module.exports = function(grunt) {
                 }
             }
         },
+        watch: {
+            less: {
+                files: ['src/styles/**/*.less'],
+                task: ['less:development']
+            }
+        }
     })
 
     grunt.loadNpmTasks('grunt-contrib-less');
+    grunt.loadNpmTasks('grunt-contrib-watch');
 
-    grunt.registerTask('default', ['less:development']);
+    grunt.registerTask('default', ['watch']);
     grunt.registerTask('build', ['less:production']);
 }
